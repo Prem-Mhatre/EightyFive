@@ -65,7 +65,7 @@ function my_keydown(e)
 
 function up()
 {
-	if(car_Y >= 0){
+	if(car_Y >= 95){
 		car_Y = car_Y - 10;
 		uploadBackground();
 		uploadCar();
@@ -74,7 +74,7 @@ function up()
 
 function down()
 {
-	if(car_Y <= 300){
+	if(car_Y <= 210){
 		car_Y = car_Y + 10;
 		uploadBackground();
 		uploadCar();
@@ -83,7 +83,7 @@ function down()
 
 function left()
 {
-	if(car_X >= 0){
+	if(car_X >= 10){
 		car_X = car_X - 10;
 		uploadBackground();
 		uploadCar();
